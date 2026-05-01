@@ -4,27 +4,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <!-- ✅ SEO: Primary title with exact keyword -->
-  <title>Casagrand Aspire WhatsApp Group – Join Residents' Forum | Chennai</title>
+  <!-- ✅ SEO: Primary title with exact keywords -->
+  <title>Casagrand Aspire WhatsApp Group – Join Residents' Forum | Navalur Chennai</title>
 
-  <!-- ✅ SEO: Meta description (shows in Google results) -->
-  <meta name="description" content="Join the official Casagrand Aspire WhatsApp group for homeowners and residents in Chennai. Scan the QR code or click to join. Stay connected with your neighbours."/>
+  <!-- ✅ SEO: Meta description shown in Google results -->
+  <meta name="description" content="Join the official Casagrand Aspire WhatsApp group for homeowners and residents in Navalur, Chennai. Scan the QR code or tap to join. Stay connected with your neighbours at Casagrand Aspires."/>
 
-  <!-- ✅ SEO: Keywords -->
-  <meta name="keywords" content="Casagrand Aspire WhatsApp group, Casagrand Aspire residents, Casagrand Aspire Chennai, Casagrand Aspires homeowners forum, Casagrand Aspire community group"/>
+  <!-- ✅ SEO: Keywords covering all search variations -->
+  <meta name="keywords" content="Casagrand Aspire WhatsApp group, Casagrand Aspires residents, Casagrand Aspires homeowners forum, Casagrand Aspires Chennai, Casagrand Aspires Navalur, Casagrand Aspires OMR, Casagrand Aspires community group, Casagrand Aspires flat owners, Casagrand Aspires residents association, Casagrand Aspires apartment, Casagrand apartment WhatsApp group Chennai, casagrand navalur whatsapp group, aspires residents group join, casagrand aspires poonamallee"/>
 
-  <!-- ✅ SEO: Tell Google to index this page -->
+  <!-- ✅ SEO: Tell Google to index and follow -->
   <meta name="robots" content="index, follow"/>
 
-  <!-- ✅ SEO: Canonical URL (avoids duplicate content) -->
+  <!-- ✅ SEO: Canonical URL -->
   <link rel="canonical" href="https://casagrandaspires.github.io/Whatsapp_Group/"/>
 
-  <!-- ✅ Open Graph: for WhatsApp/Facebook link previews -->
+  <!-- ✅ Open Graph: WhatsApp / Facebook / LinkedIn link previews -->
   <meta property="og:title" content="Casagrand Aspire WhatsApp Group – Join Residents' Forum"/>
-  <meta property="og:description" content="Official WhatsApp community for Casagrand Aspire homeowners in Chennai. Scan QR or tap to join."/>
+  <meta property="og:description" content="Official WhatsApp community for Casagrand Aspire homeowners in Navalur, Chennai. Scan QR or tap to join."/>
   <meta property="og:url" content="https://casagrandaspires.github.io/Whatsapp_Group/"/>
   <meta property="og:type" content="website"/>
   <meta property="og:locale" content="en_IN"/>
+  <meta property="og:image" content="https://i.ibb.co/0Vcwd9zM/Whats-App-Image-2026-05-01-at-6-38-15-PM.jpg"/>
+
+  <!-- ✅ Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Casagrand Aspire WhatsApp Group – Navalur Chennai"/>
+  <meta name="twitter:description" content="Join the official WhatsApp group for Casagrand Aspires residents in Navalur, Chennai."/>
+  <meta name="twitter:image" content="https://i.ibb.co/0Vcwd9zM/Whats-App-Image-2026-05-01-at-6-38-15-PM.jpg"/>
 
   <!-- ✅ Schema.org structured data (Google rich results) -->
   <script type="application/ld+json">
@@ -32,10 +39,11 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Casagrand Aspire Homeowners Forum",
-    "description": "Official WhatsApp community group for Casagrand Aspire residents and homeowners in Chennai, Tamil Nadu.",
+    "description": "Official WhatsApp community group for Casagrand Aspire residents and homeowners in Navalur, Chennai, Tamil Nadu. Connect with neighbours, get maintenance updates, and stay informed.",
     "url": "https://casagrandaspires.github.io/Whatsapp_Group/",
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "Casagrand Aspires, Navalur",
       "addressLocality": "Chennai",
       "addressRegion": "Tamil Nadu",
       "addressCountry": "IN"
@@ -67,7 +75,6 @@
       overflow-x: hidden;
     }
 
-    /* Animated background */
     body::before {
       content: '';
       position: fixed;
@@ -80,7 +87,7 @@
       z-index: 0;
     }
 
-    /* Hero */
+    /* ── HERO ── */
     .hero {
       position: relative;
       z-index: 1;
@@ -102,15 +109,13 @@
     }
     .hero h1 {
       font-family: 'Playfair Display', serif;
-      font-size: clamp(2.4rem, 6vw, 4.2rem);
+      font-size: clamp(2.2rem, 6vw, 4rem);
       font-weight: 900;
       line-height: 1.1;
       color: #fff;
       animation: fadeUp 0.7s 0.1s ease both;
     }
-    .hero h1 span {
-      color: var(--green);
-    }
+    .hero h1 span { color: var(--green); }
     .hero-sub {
       margin-top: 16px;
       font-size: 1rem;
@@ -128,28 +133,28 @@
       animation: fadeUp 0.7s 0.3s ease both;
     }
 
-    /* Main card */
+    /* ── MAIN GRID ── */
     .main-card {
       position: relative;
       z-index: 1;
-      max-width: 900px;
+      max-width: 960px;
       margin: 0 auto;
-      padding: 0 20px 80px;
+      padding: 0 20px 60px;
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 340px 1fr;
       gap: 40px;
       align-items: start;
     }
-    @media (max-width: 640px) {
+    @media (max-width: 720px) {
       .main-card { grid-template-columns: 1fr; }
     }
 
-    /* QR Panel */
+    /* ── QR PANEL (portrait image box) ── */
     .qr-panel {
       background: rgba(255,255,255,0.04);
       border: 1px solid rgba(255,255,255,0.08);
       border-radius: 24px;
-      padding: 36px 28px;
+      padding: 28px 22px 24px;
       text-align: center;
       backdrop-filter: blur(12px);
       animation: fadeUp 0.8s 0.3s ease both;
@@ -164,29 +169,32 @@
       background: linear-gradient(90deg, transparent, var(--green), transparent);
     }
     .qr-label {
-      font-size: 0.7rem;
+      font-size: 0.68rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
       color: var(--green);
-      margin-bottom: 20px;
+      margin-bottom: 16px;
       font-weight: 500;
     }
+    /* Portrait image wrapper — fills the card width */
     .qr-img-wrap {
       background: #fff;
       border-radius: 16px;
-      padding: 12px;
-      display: inline-block;
+      padding: 10px;
+      display: block;
+      width: 100%;
       box-shadow: 0 8px 40px rgba(37,211,102,0.2);
     }
     .qr-img-wrap img {
-      width: 200px;
+      width: 100%;
       height: auto;
       display: block;
-      border-radius: 8px;
+      border-radius: 10px;
+      object-fit: contain;
     }
     .qr-note {
-      margin-top: 18px;
-      font-size: 0.82rem;
+      margin-top: 14px;
+      font-size: 0.8rem;
       color: rgba(255,255,255,0.45);
       line-height: 1.5;
     }
@@ -194,12 +202,12 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      margin-top: 20px;
+      margin-top: 16px;
       background: rgba(37,211,102,0.12);
       border: 1px solid rgba(37,211,102,0.3);
-      padding: 10px 20px;
+      padding: 9px 18px;
       border-radius: 50px;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       color: var(--green);
       font-weight: 500;
       animation: pulse 2s ease-in-out infinite;
@@ -209,28 +217,26 @@
       50% { box-shadow: 0 0 0 8px rgba(37,211,102,0); }
     }
 
-    /* Info Panel */
-    .info-panel {
-      animation: fadeUp 0.8s 0.45s ease both;
-    }
+    /* ── INFO PANEL ── */
+    .info-panel { animation: fadeUp 0.8s 0.45s ease both; }
     .info-panel h2 {
       font-family: 'Playfair Display', serif;
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       font-weight: 700;
       color: #fff;
       line-height: 1.2;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
     }
-    .info-panel p {
-      font-size: 0.92rem;
+    .info-panel > p {
+      font-size: 0.9rem;
       color: rgba(255,255,255,0.6);
-      line-height: 1.75;
-      margin-bottom: 28px;
+      line-height: 1.78;
+      margin-bottom: 24px;
     }
     .features {
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 10px;
     }
     .feature-item {
       display: flex;
@@ -239,56 +245,72 @@
       background: rgba(255,255,255,0.03);
       border: 1px solid rgba(255,255,255,0.06);
       border-radius: 14px;
-      padding: 14px 16px;
+      padding: 13px 15px;
       transition: border-color 0.2s, background 0.2s;
     }
     .feature-item:hover {
       border-color: rgba(37,211,102,0.3);
       background: rgba(37,211,102,0.05);
     }
-    .feature-icon {
-      font-size: 1.4rem;
-      flex-shrink: 0;
-      margin-top: 1px;
-    }
-    .feature-text strong {
-      display: block;
-      font-size: 0.88rem;
-      color: #fff;
-      margin-bottom: 2px;
-    }
-    .feature-text span {
-      font-size: 0.78rem;
-      color: rgba(255,255,255,0.45);
-    }
+    .feature-icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 1px; }
+    .feature-text strong { display: block; font-size: 0.86rem; color: #fff; margin-bottom: 2px; }
+    .feature-text span { font-size: 0.76rem; color: rgba(255,255,255,0.45); }
 
-    /* Steps section */
+    /* ── ABOUT SECTION (SEO text) ── */
+    .about-section {
+      position: relative;
+      z-index: 1;
+      max-width: 960px;
+      margin: 0 auto 50px;
+      padding: 0 20px;
+      animation: fadeUp 0.8s 0.5s ease both;
+    }
+    .about-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 20px;
+      padding: 28px 30px;
+    }
+    .about-card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+    .about-card p {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.85;
+    }
+    .about-card p + p { margin-top: 10px; }
+
+    /* ── STEPS SECTION ── */
     .steps-section {
       position: relative;
       z-index: 1;
-      max-width: 900px;
+      max-width: 960px;
       margin: 0 auto 60px;
       padding: 0 20px;
       animation: fadeUp 0.8s 0.55s ease both;
     }
     .steps-section h3 {
       font-family: 'Playfair Display', serif;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       color: #fff;
-      margin-bottom: 28px;
+      margin-bottom: 24px;
       text-align: center;
     }
     .steps-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
+      gap: 18px;
     }
     @media (max-width: 580px) { .steps-grid { grid-template-columns: 1fr; } }
     .step-card {
       background: rgba(255,255,255,0.03);
       border: 1px solid rgba(255,255,255,0.07);
       border-radius: 18px;
-      padding: 24px 20px;
+      padding: 22px 18px;
       text-align: center;
       transition: transform 0.2s, border-color 0.2s;
     }
@@ -301,24 +323,24 @@
       font-weight: 700;
       font-size: 1rem;
       display: flex; align-items: center; justify-content: center;
-      margin: 0 auto 14px;
+      margin: 0 auto 12px;
     }
-    .step-card h4 { font-size: 0.9rem; color: #fff; margin-bottom: 6px; }
-    .step-card p { font-size: 0.78rem; color: rgba(255,255,255,0.45); line-height: 1.5; }
+    .step-card h4 { font-size: 0.88rem; color: #fff; margin-bottom: 6px; }
+    .step-card p { font-size: 0.76rem; color: rgba(255,255,255,0.45); line-height: 1.5; }
 
-    /* Footer */
+    /* ── FOOTER ── */
     footer {
       position: relative; z-index: 1;
       text-align: center;
-      padding: 30px 20px 40px;
+      padding: 28px 20px 40px;
       border-top: 1px solid rgba(255,255,255,0.07);
     }
-    footer p { font-size: 0.78rem; color: rgba(255,255,255,0.3); line-height: 1.8; }
+    footer p { font-size: 0.76rem; color: rgba(255,255,255,0.3); line-height: 1.9; }
     footer p strong { color: rgba(255,255,255,0.5); }
 
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(22px); }
-      to { opacity: 1; transform: translateY(0); }
+      to   { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
@@ -328,20 +350,24 @@
   <section class="hero">
     <div class="hero-badge">🏠 Official Community Group</div>
     <h1>Casagrand Aspire<br><span>WhatsApp Group &amp; Homeowners Forum</span></h1>
-    <p class="hero-sub">Stay connected with your neighbours · Chennai</p>
+    <p class="hero-sub">Casagrand Aspires Residents · Navalur, Chennai, Tamil Nadu</p>
     <div class="gold-line"></div>
   </section>
 
   <!-- MAIN GRID -->
   <div class="main-card">
 
-    <!-- QR Panel -->
+    <!-- QR Panel — portrait image -->
     <div class="qr-panel">
-      <div class="qr-label">📱 Scan to Join WhatsApp Group</div>
+      <div class="qr-label">📱 Scan to Join — Casagrand Aspire WhatsApp Group</div>
       <div class="qr-img-wrap">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAU8AAAGGCAIAAAB0SJTZAAABCGlDQ1BJQ0MgUHJvZmlsZQAAeJxjYGA8wQAELAYMDLl5JUVB7k4KEZFRCuwPGBiBEAwSk4sLGHADoKpv1yBqL+viUYcLcKakFicD6Q9ArFIEtBxopAiQLZIOYWuA2EkQtg2IXV5SUAJkB4DYRSFBzkB2CpCtkY7ETkJiJxcUgdT3ANk2uTmlyQh3M/Ck5oUGA2kOIJZhKGYIYnBncAL5H6IkfxEDg8VXBgbmCQixpJkMDNtbGRgkbiHEVBYwMPC3MDBsO48QQ4RJQWJRIliIBYiZ0tIYGD4tZ2DgjWRgEL7AwMAVDQsIHG5TALvNnSEfCNMZchhSgSKeDHkMyQx6QJYRgwGDIYMZAKbWPz9HbOBQAADuP0lEQVR4nOx9d5xU1dn/855zps7MltkOu8DSWXqHpSMgIiIYC4oajVGTqDExaoyJIZoYTYwJJib2kqjRqFETFVRA6b2z1KVsr+f8/jjvO+cuux0QjO99zuf5rbN35s495556yqnnPM95zpJCCNMSb5Q5cDEZNiVLqt/dHe96SrQ+lsHkPe/7tIRlGT1bFM3KSWoNQe3W17k8RjJRXG4Z/V1JGI6IiKSFiQRJYpyRRIPGGZpCVUop7AjiBTHHMKpI30HKJDpuT+9vfafLWnk87Z5FGR27lhLbfS9H0A3q4u7H8kZd3I2BIhEREQBJiQRJIhInzb0OxWM0JIIF+H4IIKJnDfGl8B7RTTQMF5BKYS+w9XWvC8r1p9LGUQF+LTknvMVk53fLKCfVnBqtcHN4lRGm0kd60cqFI0FSDpKVqNEzJJERSUYWRmASJKJRNiVRJMpWSlICkgkkkSgqBBKAMBgqCgBIAAAiAeqUqkClVgKFJOBJJoJMBkMBpCq7TQAAAAASUVORK5CYII=" alt="Casagrand Aspire WhatsApp Group QR Code – Scan to Join" />
+        <img
+          src="https://i.ibb.co/0Vcwd9zM/Whats-App-Image-2026-05-01-at-6-38-15-PM.jpg"
+          alt="Casagrand Aspire WhatsApp Group QR Code — Scan to Join Residents Forum Navalur Chennai"
+          loading="lazy"
+        />
       </div>
-      <p class="qr-note">Open your phone camera &amp; point at the QR code, then tap the WhatsApp link.</p>
+      <p class="qr-note">Open your phone camera &amp; point at the QR code, then tap the WhatsApp link that appears.</p>
       <div class="scan-pulse">
         <span>●</span> Group is Active
       </div>
@@ -350,21 +376,21 @@
     <!-- Info Panel -->
     <div class="info-panel">
       <h2>Join Our Residents' Community</h2>
-      <p>Welcome to the official Casagrand Aspire WhatsApp group for homeowners and residents in Chennai. A single place to stay informed, connected and together.</p>
+      <p>Welcome to the official <strong>Casagrand Aspire WhatsApp group</strong> for homeowners and residents. A single place to stay informed, connected and together with your neighbours.</p>
 
       <div class="features">
         <div class="feature-item">
           <div class="feature-icon">🔧</div>
           <div class="feature-text">
             <strong>Maintenance &amp; Repairs</strong>
-            <span>Log issues, share updates and follow up on requests</span>
+            <span>Log issues, share updates and follow up on requests with management</span>
           </div>
         </div>
         <div class="feature-item">
           <div class="feature-icon">📢</div>
           <div class="feature-text">
             <strong>Official Announcements</strong>
-            <span>Important notices from management &amp; association</span>
+            <span>Important notices from management &amp; residents association</span>
           </div>
         </div>
         <div class="feature-item">
@@ -381,7 +407,30 @@
             <span>Real-time updates on incidents &amp; watchful neighbours</span>
           </div>
         </div>
+        <div class="feature-item">
+          <div class="feature-icon">🏠</div>
+          <div class="feature-text">
+            <strong>Flat Owners &amp; Tenants</strong>
+            <span>Buy, sell, rent listings &amp; relocation help within the community</span>
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
+
+  <!-- ABOUT SECTION — SEO keyword-rich paragraph -->
+  <div class="about-section">
+    <div class="about-card">
+      <h2>About Casagrand Aspires Residents Forum</h2>
+      <p>
+        <strong>Casagrand Aspires</strong> is a premium residential apartment community located in <strong>Navalur, OMR, Chennai, Tamil Nadu</strong>. This page is the official hub for the <strong>Casagrand Aspires WhatsApp group</strong> — a resident-managed community connecting all flat owners, homeowners and tenants of Casagrand Aspires.
+      </p>
+      <p>
+        Whether you are a new homebuyer at <strong>Casagrand Aspires Chennai</strong>, an existing resident, or a tenant looking to connect — this <strong>Casagrand Aspires residents group</strong> is your go-to place for maintenance updates, safety alerts, community events and neighbour connections. Join the <strong>Casagrand Aspire homeowners forum</strong> today and stay connected with your community.
+      </p>
+      <p>
+        This group is not affiliated with Casagrand Builder Pvt. Ltd. It is run voluntarily by residents of <strong>Casagrand Aspires, Navalur, Chennai</strong> for the benefit of all flat owners and residents in the <strong>Casagrand Aspires residents association</strong>.
+      </p>
     </div>
   </div>
 
@@ -392,17 +441,17 @@
       <div class="step-card">
         <div class="step-num">1</div>
         <h4>Scan the QR Code</h4>
-        <p>Open your phone camera and point it at the QR code on this page</p>
+        <p>Open your phone camera and point it at the Casagrand Aspires QR code on this page</p>
       </div>
       <div class="step-card">
         <div class="step-num">2</div>
         <h4>Tap the Link</h4>
-        <p>Tap the WhatsApp link that appears on your screen</p>
+        <p>Tap the WhatsApp link that appears on your screen to open the group invite</p>
       </div>
       <div class="step-card">
         <div class="step-num">3</div>
         <h4>Introduce Yourself</h4>
-        <p>Join the group and say hi with your flat number 🏠</p>
+        <p>Join the group and say hi with your flat number and block 🏠</p>
       </div>
     </div>
   </div>
@@ -411,9 +460,10 @@
   <footer>
     <p>
       <strong>Casagrand Aspire WhatsApp Group &amp; Homeowners Forum</strong><br>
-      📍 Casagrand Aspires, Chennai, Tamil Nadu<br>
-      This is a resident-managed community group · Not affiliated with Casagrand Pvt. Ltd.<br>
+      📍 Casagrand Aspires, Navalur, OMR, Chennai – 600130, Tamil Nadu, India<br>
+      Keywords: Casagrand Aspires WhatsApp | Casagrand Navalur Residents | Casagrand Aspires Homeowners Forum | Casagrand OMR Community<br>
       <br>
+      This is a resident-managed community group · Not affiliated with Casagrand Builder Pvt. Ltd.<br>
       Share this page with your neighbours to grow our community 💚
     </p>
   </footer>
